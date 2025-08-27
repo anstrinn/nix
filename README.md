@@ -1,13 +1,13 @@
 <h1 align="center">🍚 NixOS Dotfiles</h1>
 
 <div align="center">
-<img src=https://img.shields.io/github/repo-size/anstrinn/dotfiles-nixos?color=7c5cff&label=SIZE&logo=googlecloudstorage&style=for-the-badge&logoColor=D9E0EE&labelColor=292324>
+<img src=https://img.shields.io/github/repo-size/aocoronel/dotfiles-nixos?color=7c5cff&label=SIZE&logo=googlecloudstorage&style=for-the-badge&logoColor=D9E0EE&labelColor=292324>
 <img src=https://img.shields.io/badge/Keep%20It%20Simple-Stupid-7c5cff?logo=nixos&style=for-the-badge&logoColor=D9E0EE&labelColor=292324>
-<img src=https://img.shields.io/github/license/anstrinn/dotfiles-nixos?color=7c5cff&label=LICENSE&logo=github&style=for-the-badge&logoColor=D9E0EE&labelColor=292324>
+<img src=https://img.shields.io/github/license/aocoronel/dotfiles-nixos?color=7c5cff&label=LICENSE&logo=github&style=for-the-badge&logoColor=D9E0EE&labelColor=292324>
 </div>
 
 > [!NOTE]
-> This repository only contains Nix configurations. The software configurations can be found at [anstrinn/dotfiles](https://github.com/anstrinn/dotfiles)
+> This repository only contains Nix configurations. The software configurations can be found at [aocoronel/dotfiles](https://github.com/aocoronel/dotfiles)
 
 <details>
   <summary>Philosophies</summary>
@@ -45,14 +45,14 @@ This repository include an installation script which helps you install this NixO
 You can try this configuration in two ways:
 
 ```bash
-git clone https://codeberg.org/anstrinn/nix $HOME/nix
+git clone https://codeberg.org/aocoronel/nix $HOME/nix
 sh $HOME/nix/install.sh
 ```
 
 Or if you prefer a single command (WIP):
 
 ```bash
-curl -sSL https://codeberg.org/anstrinn/nix/raw/branch/main/install.sh clone | bash
+curl -sSL https://codeberg.org/aocoronel/nix/raw/branch/main/install.sh clone | bash
 ```
 
 <strong>Tip:</strong> If you want to try the config just like I use it, use the `-d` flag to use the default config.
@@ -62,11 +62,11 @@ curl -sSL https://codeberg.org/anstrinn/nix/raw/branch/main/install.sh clone | b
 ## Footages
 
 <div align="center">
-  <img src="https://git.disroot.org/anstrinn/images/raw/branch/main/dotfiles/2025-04-21-nixos.webp">
+  <img src="https://git.disroot.org/aocoronel/images/raw/branch/main/dotfiles/2025-04-21-nixos.webp">
   <p>Footage from NixOS. Featuring: Fastfetch, Neovim, Ranger, Cmatrix, Fuzzel, Hyprland and Waybar</p>
 </div>
 
-The theme can be found in the official theme repository: [anstrinn/elegantvagrant](https://github.com/anstrinn/elegantvagrant)
+The theme can be found in the official theme repository: [aocoronel/elegantvagrant](https://github.com/aocoronel/elegantvagrant)
 
 ## Tools
 
