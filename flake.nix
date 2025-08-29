@@ -15,7 +15,7 @@
     nixpkgs.url = "nixpkgs/nixos-25.05";
 
     # Scripts
-    leta-searcher.url = "github:anstrinn/search-sh";
+    leta-searcher.url = "github:aocoronel/search-sh";
   };
 
   outputs = {
@@ -39,9 +39,9 @@
     # ----- USER SETTINGS ----- #
     # This user is in wheel group
     userSettings = {
-      username = "anstrinn"; # anstrinn,admin,user
+      username = "anstrinn"; # aocoronel,admin,user
       name = "Anstrinn"; # Anstrinn,Admin,User
-      email = "anstrinn@disroot.org"; # john@doe.com
+      email = "aocoronel@getgoogleoff.me"; # john@doe.com
       profile = "desktop"; # desktop,laptop
       homeDir = "/home/${userSettings.username}";
       editor = "neovide"; # emacs,neovide

@@ -182,7 +182,7 @@ function main() {
   if [ ! -d "/nix/.rw-store" ]; then
     sudo mount -o remount,size=10G,noatime /nix/.rw-store
   fi
-  sudo nixos-install --flake .#anstrinn || exit 1
+  sudo nixos-install --flake .#aocoronel || exit 1
 
   echo -e "\nStep 9 - Finishing installation\n"
   default_user=$(awk -F' = |"' "/username/ {print \$3}" "flake.nix" | head -n 1)
@@ -193,7 +193,7 @@ function main() {
 
   echo -e "\nStep 10 - Configuring dotfiles\n"
 
-  git clone https://codeberg.org/anstrinn/dotfiles $HOME/dotfiles
+  git clone https://codeberg.org/aocoronel/dotfiles $HOME/dotfiles
   sudo mv $HOME/dotfiles/ $nix_home
   sudo cp -r $HOME/nix/ $nix_home
   sudo chroot /mnt/ bash -c "cd /home/$default_user/dotfiles && just stow"
@@ -232,7 +232,7 @@ help)
   exit 0
   ;;
 clone)
-  git clone https://github.com/anstrinn/nix $HOME/nix && main
+  git clone https://github.com/aocoronel/nix $HOME/nix && main
   ;;
 *)
   main
